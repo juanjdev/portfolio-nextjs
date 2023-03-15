@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "Juanjo's website",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0", 
-    "build": "next build", 
-    "prettier": "prettier -write .", 
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
     "lint": "next lint"
   },
   "keywords": [],
   "author": "Juan J. Blanco",
   "license": "ISC",
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
