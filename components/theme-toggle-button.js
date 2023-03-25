@@ -2,9 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import {
   IconButton,
   useColorMode,
-  useColorModePreference,
   useColorModeValue,
-  userColorModeValue
 } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 
