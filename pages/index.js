@@ -3,7 +3,6 @@ import NextLink from 'next/link'
 import {
   List,
   SimpleGrid,
-  GridItem,
   ListItem,
   Link,
   Button,
@@ -19,8 +18,8 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
-
 import { BioSection, BioYear } from '../components/bio'
+import { GridItem } from '../components/grid-item'
 
 const Page = () => {
   return (
